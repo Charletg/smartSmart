@@ -72,14 +72,7 @@
                     myServices,
                     myIdEntity,
                     myEntity,
-                    myImgPath,
-                    str,
-                    funcData = function (data,err) {
-                        return new Promise (function (resolve, reject){
-                            resolve(str = data);
-                            reject(console.log(err));
-                        });
-                    };
+                    myImgPath;
                 console.log(json);
                 function differentServices(element) {
                     for (var service in element) {
@@ -100,9 +93,9 @@
                     utils.call(myIdEntity,
                         'Browse',
                         [0],
-                        funcData.then(function(str){console.log(str);}, function(err) {console.error(err);}));
-                    console.log("STR   :" + str);
-
+                        function (res) {
+                            console.log("RES :   " + res);
+                        });
                 }
             },
             function (err) {
@@ -191,10 +184,10 @@
                 if (cb) {
                     call.callId = callId++;
                 }
-                console.log( "Calling", call);
+                console.log("Calling", call);
                 utils.io.emit('call', call
                     , function (data) {
-                        console.log("Call", call.callId , " returns", data);
+                        console.log("Call", call.callId, " returns", data);
                         if (cb) {
                             cb(data);
                         }
