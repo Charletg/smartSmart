@@ -71,10 +71,12 @@ var mediaServers = [];
                 myServices = myServices[0];
                 for (var service in myServices) {
                     var mediaServer = {};
+
                     mediaServer.id = myServices[service].id;
                     mediaServer.name = myServices[service].name;
                     mediaServer.iconURL = myServices[service].iconURL;
                     mediaServers.push(mediaServer);
+
                 };
                 //mediaServers = JSON.stringify(mediaServers);
                 if (mediaServers[0]) {

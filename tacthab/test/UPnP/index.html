@@ -1,19 +1,34 @@
 <!doctype html>
 
-<html>
+<html ng-app="mediaBrowser">
+
 <head>
-    <title>UPnP</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="bundleUPnP.css"></link>
-    <script src="bundleUPnP.js" defer></script>
+    <title>UPnP yal</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\test\UPnP\bundleUPnP.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="MediaBrowserMetier.js"></script>
+    <script src="MediaBrowser.js"></script>
 </head>
+
 <body>
-<h1>UPnP</h1>
+    <h1>UPnP</h1>
 
-<p>Look at the console and the javascript file...</p>
+    <p>Client side</p>
 
-<p id="myJson"></p>
+    <p id="myJson"></p>
 
-<div id="myImg"></div>
+    <div id="myImg"></div>
+
+
+    <div ng-controller="mediaBrowserCtrl">
+
+        <div ng-repeat="mediaServer in mediaServers track by mediaServer.id">
+            {{mediaServer.id}}
+            <br /> {{mediaServer.name}}
+        </div>
+    </div>
+
 </body>
+
 </html>
