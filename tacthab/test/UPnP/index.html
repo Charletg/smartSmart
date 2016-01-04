@@ -1,34 +1,182 @@
-<!doctype html>
-
-<html ng-app="mediaBrowser">
-
+<!DOCTYPE html>
+<html  ng-app="mediaBrowser">
 <head>
-    <title>UPnP yal</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="..\test\UPnP\bundleUPnP.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Smart² - home page</title>
+
+    <link rel="stylesheet" href="bundleUPnP.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="MediaBrowserMetier.js"></script>
     <script src="MediaBrowser.js"></script>
+
+    <link href="CSS/main.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="JS/bootstrap-3.3.6/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Carousel core -->
+    <link href="JS/killerCarousel/killercarousel.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link
+            href="JS/bootstrap-3.3.6/docs/assets/css/ie10-viewport-bug-workaround.css"
+            rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="CSS/navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script
+            src="JS/bootstrap-3.3.6/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <h1>UPnP</h1>
 
-    <p>Client side</p>
+<div class="container">
 
-    <p id="myJson"></p>
-
-    <div id="myImg"></div>
-
-
-    <div ng-controller="mediaBrowserCtrl">
-
-        <div ng-repeat="mediaServer in mediaServers track by mediaServer.id">
-            {{mediaServer.id}}
-            <br /> {{mediaServer.name}}
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <img id="logo"
+                 src="http://vignette4.wikia.nocookie.net/forzamotorsport4/images/6/6d/Smart_logo.png/revision/latest?cb=20120505173424" />
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
         </div>
+            <div id="navbar" class="navbar-collapse collapse row">
+
+
+                <ul ng-controller="mediaBrowserCtrl" class="nav navbar-nav navbar-right row center-block">
+                    <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src"><img
+                            ng-src={{mediaServer.iconURL}} alt={{mediaServer.name}} title={{mediaServer.name}}></li>
+                </ul>
+
+            </div>
+        <!--/.nav-collapse -->
+</div>
+        <!--/.container-fluid -->
+    </nav>
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+
+        <!-- The carousel wrapper. -->
+
+            <div id="mediaCarousel" class="kc-wrap">
+                <div id="mediaName" class="jumbotron">vidéo</div>
+                <!-- Carousel items follow -->
+
+
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/video.png" alt="vidéo">
+                </div>
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/image.png" alt="image">
+                </div>
+
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/tv.png" alt="tv">
+                </div>
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/radio.png" alt="radio">
+                </div>
+                <!-- 				<div class="kc-item">
+                                    <img src="JS/killerCarousel/images/playlist.png" alt="playlist">
+                                </div> -->
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/param.png" alt="paramètres">
+                </div>
+                <div class="kc-item">
+                    <img src="JS/killerCarousel/images/audio.png" alt="audio">
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron playlist">
+            <!-- The carousel wrapper. -->
+            <div id="playlistCarousel" class="kc-wrap">
+                <!-- <span id="mediaName" class="jumbotron">Musique</span> -->
+                <!-- Carousel items follow -->
+
+                <div class="col-md-6 col-md-offset-3">
+
+                    <div class="tcenter">
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-backward"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-stop"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-play"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-pause"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-forward"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-down"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i></a>
+                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-off"></i></a>
+                    </div> <!-- /.tcenter -->
+
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="la chanson de l'amour - Nirvana">
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="La cousine à Dudulle - Pierrot">
+                </div>
+
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="Un jambon dans une prairie - Jojo">
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
+                </div>
+                <div class="kc-item cover">
+                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
+                </div>
+                <div id="lectureName" class="jumbotron"></div>
+            </div>
+
+        </div>
+
     </div>
+    <!-- /container -->
 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        window.jQuery
+        || document
+                .write('<script src="JS/bootstrap-3.3.6/assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="JS/bootstrap-3.3.6/docs/dist/js/bootstrap.min.js"></script>
+    <script src="JS/killerCarousel/killercarousel.js"></script>
+    <script src="JS/main.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script
+            src="JS/bootstrap-3.3.6/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
-
 </html>
