@@ -1,0 +1,50 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.icone-src {
+  border-radius:50%;
+  width:100px;
+  height:100px;
+  margin: 5px;
+}
+
+#logo {
+	height: 110px;
+}
+
+.icone-src img {
+	width:100%;
+}
+
+#navbar {
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+	.navbar-right {
+		display: flex;
+		flex-direction: row;
+		width:100%;
+	}
+	.icone-src {
+	   width:60px;
+	   height:60px;
+	}
+	#logo {
+		height: 60px;
+	}
+	#playlistCarousel .kc-horizon .kc-item{
+		width: 150px;
+	}
+	#playlistCarousel {
+		padding: 0;
+	}
+}

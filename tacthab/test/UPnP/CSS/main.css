@@ -1,0 +1,86 @@
+.kc-item img {
+    position:absolute;
+    pointer-events: none;   /* Make images non-selectable. */
+    width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
+    height: 100%;
+    padding-bottom: 10px;
+
+}
+
+#playlistCarousel .kc-item img {
+    position:absolute;
+    pointer-events: none;   /* Make images non-selectable. */
+    width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
+    height: 100%;
+    padding-bottom: 20px;
+    top: 0px;
+}
+
+.kc-wrap{
+	opacity: 0.8;
+}
+
+#playlistCarousel {
+	padding: 0px;
+	height: 380px;
+	margin: 0 auto;
+}
+
+
+
+#mediaName, #lectureName {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	bottom: 5px;
+	left: 5px;
+	width: 200px;
+	z-index: 9999998;
+	font-size: 30px;
+	text-align: center;
+}
+
+#lectureName, #playlist {
+	font-size: 30px;
+	width: 100%;
+	height: 42px;
+	bottom: 0px;
+	text-align: left;
+	background-image:url('background.png');
+	background-position: center;
+	border-top: 1px solid gray;
+	margin-top: 50px;
+}
+
+#playlistCarousel	 .kc-horizon  img {
+opacity: 0.5;
+}
+
+#playlistCarousel	 .kc-horizon .kc-front-item img {
+opacity: 1;
+}
+
+.tcenter{
+	padding: 10px;
+	text-align:center;
+}
+
+@media screen and (max-width:768px) {
+	.kc-item img {
+		padding-bottom: 30px;
+	}
+	#mediaName,  #playlist {
+		font-size: 19px;
+		width: 145px;
+	}
+	#lectureName {
+		font-size: 15px;
+	}
+	#playlistCarousel {
+		height: 200px;
+	}
+	.btn-default {
+		width: 30px;
+		height: 30px;
+	}
+}
