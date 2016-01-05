@@ -1,75 +1,125 @@
-.kc-item img {
-    position:absolute;
-    pointer-events: none;   /* Make images non-selectable. */
-    width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
-    height: 100%;
-    padding-bottom: 10px;
+.mediaServers {
+	text-align: right;
+	margin-top: 70px;
+}
 
+/*.icon {
+	width: 5%;
+	height: 5%;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#audioMenuWrapper {
+	position: absolute;
+	text-align: center;
+	width: 1140px;
+}*/
+
+#audioMenuWrapper {
+	height: 200px;
+}
+
+.kc-item img {
+	position: absolute;
+	pointer-events: none;
+	/* Make images non-selectable. */
+	width: 100%;
+	/* Make images expand to wrapper size (used in 2d modes). */
+	height: 100%;
+	padding-bottom: 10px;
 }
 
 #playlistCarousel .kc-item img {
-    position:absolute;
-    pointer-events: none;   /* Make images non-selectable. */
-    width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
-    height: 100%;
-    padding-bottom: 20px;
-    top: 0px;
+	pointer-events: default;
+	/* Make images non-selectable. */
+	width: 40%;
+	/* Make images expand to wrapper size (used in 2d modes). */
+	height: 40%;
+	padding-bottom: 20px;
+	top: 30px;
 }
 
-.kc-wrap{
+.kc-wrap {
 	opacity: 0.8;
 }
 
 #playlistCarousel {
 	padding: 0px;
-	height: 380px;
+	height: 150px;
 	margin: 0 auto;
 }
 
-
-
-#mediaName, #lectureName {
-	position: absolute;
-	padding: 0;
-	margin: 0;
-	bottom: 5px;
-	left: 5px;
-	width: 200px;
-	z-index: 9999998;
-	font-size: 30px;
+#audioMenu {
+	height: 0px;
 	text-align: center;
+	display: flex;
 }
 
-#lectureName, #playlist {
+/*.menu-item {
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	opacity: 0;
+	margin-right: 6%;
+	margin-left: 6%;
+	margin-top: 4%;
+	cursor: pointer;
+}*/
+
+.menu-item img {
+	width: 60%;
+	height: 60%;
+}
+
+/*#mediaName,#lectureName {
+				  position: absolute;
+				  padding: 0;
+				  margin: 0;
+				  bottom: 5px;
+				  left: 5px;
+				  width: 200px;
+				  z-index: 9999998;
+				  font-size: 30px;
+				  text-align: center;
+			  }
+
+#lectureName,
+#playlist {
 	font-size: 30px;
 	width: 100%;
 	height: 42px;
 	bottom: 0px;
 	text-align: left;
-	/*background-image:url('../JS/killerCarousel/background.png');*/
+	background-image: url('background.png');
 	background-position: center;
 	border-top: 1px solid gray;
-	margin-top: 50px;
+	margin-top: 0px;
+}*/
+
+#playlistCarousel .kc-horizon img {
+	opacity: 0.5;
 }
 
-#playlistCarousel	 .kc-horizon  img {
-opacity: 0.5;
+#playlistCarousel .kc-horizon .kc-front-item img {
+	opacity: 1;
 }
 
-#playlistCarousel	 .kc-horizon .kc-front-item img {
-opacity: 1;
+.kc-front-item {
+	cursor: pointer;
 }
 
-.tcenter{
+.tcenter {
 	padding: 10px;
-	text-align:center;
+	text-align: center;
 }
 
 @media screen and (max-width:768px) {
 	.kc-item img {
 		padding-bottom: 30px;
 	}
-	#mediaName,  #playlist {
+	#mediaName,
+	#playlist {
 		font-size: 19px;
 		width: 145px;
 	}
@@ -82,5 +132,15 @@ opacity: 1;
 	.btn-default {
 		width: 30px;
 		height: 30px;
+	}
+	#audioMenu {
+		display: flex;
+	}
+	.menu-item img {
+		width: 60%;
+		height: 60%;
+	}
+	#audioMenuWrapper {
+		height: 100px;
 	}
 }

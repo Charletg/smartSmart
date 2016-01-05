@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  ng-app="mediaBrowser">
+<html ng-app="mediaBrowser">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,8 @@
     <link href="CSS/navbar.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script
             src="JS/bootstrap-3.3.6/docs/assets/js/ie-emulation-modes-warning.js"></script>
 
@@ -52,131 +53,126 @@
     <!-- Static navbar -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-        <div class="navbar-header">
-            <img id="logo"
-                 src="http://vignette4.wikia.nocookie.net/forzamotorsport4/images/6/6d/Smart_logo.png/revision/latest?cb=20120505173424" />
-            <button type="button" class="navbar-toggle collapsed"
-                    data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                    aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span> <span
-                    class="icon-bar"></span> <span class="icon-bar"></span> <span
-                    class="icon-bar"></span> <span class="icon-bar"></span>
-            </button>
-        </div>
+            <div class="navbar-header">
+                <img id="logo"
+                     src="http://vignette4.wikia.nocookie.net/forzamotorsport4/images/6/6d/Smart_logo.png/revision/latest?cb=20120505173424"/>
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+            </div>
             <div id="navbar" class="navbar-collapse collapse row">
 
-
                 <ul ng-controller="mediaBrowserCtrl" class="nav navbar-nav navbar-right row center-block">
-                    <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src"><img
+                    <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src icon"><img
                             ng-src={{mediaServer.iconURL}} alt={{mediaServer.name}} title={{mediaServer.name}}></li>
                 </ul>
-
             </div>
-        <!--/.nav-collapse -->
-</div>
+            <!--/.nav-collapse -->
+        </div>
         <!--/.container-fluid -->
     </nav>
 
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" id="medias">
 
         <!-- The carousel wrapper. -->
-
-            <div id="mediaCarousel" class="kc-wrap">
-                <div id="mediaName" class="jumbotron">vidéo</div>
-                <!-- Carousel items follow -->
+        <div id="mediaCarousel" class="kc-wrap">
+            <!-- Carousel items follow -->
 
 
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/video.png" alt="vidéo">
-                </div>
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/image.png" alt="image">
-                </div>
+            <div class="kc-item">
+                <img src="JS/killerCarousel/images/video.png" alt="vidéo">
+            </div>
+            <div class="kc-item">
+                <img src="JS/killerCarousel/images/image.png" alt="image">
+            </div>
 
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/tv.png" alt="tv">
-                </div>
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/radio.png" alt="radio">
-                </div>
-                <!-- 				<div class="kc-item">
-                                    <img src="JS/killerCarousel/images/playlist.png" alt="playlist">
-                                </div> -->
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/param.png" alt="paramètres">
-                </div>
-                <div class="kc-item">
-                    <img src="JS/killerCarousel/images/audio.png" alt="audio">
-                </div>
+            <div class="kc-item">
+                <img src="JS/killerCarousel/images/tv.png" alt="tv">
+            </div>
+            <div class="kc-item">
+                <img src="JS/killerCarousel/images/radio.png" alt="radio">
+            </div>
+            <!-- 				<div class="kc-item">
+                <img src="JS/killerCarousel/images/playlist.png" alt="playlist">
+            </div> -->
+            <div class="kc-item">
+                <img src="JS/killerCarousel/images/param.png" alt="paramètres">
+            </div>
+            <div id="audio" class="kc-item">
+                <img src="JS/killerCarousel/images/audio.png" alt="audio">
             </div>
         </div>
-        <div class="jumbotron playlist">
-            <!-- The carousel wrapper. -->
-            <div id="playlistCarousel" class="kc-wrap">
-                <!-- <span id="mediaName" class="jumbotron">Musique</span> -->
-                <!-- Carousel items follow -->
+    </div>
 
-                <div class="col-md-6 col-md-offset-3">
 
-                    <div class="tcenter">
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-backward"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-stop"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-play"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-pause"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-forward"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-down"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i></a>
-                        <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-off"></i></a>
-                    </div> <!-- /.tcenter -->
+    <div class="jumbotron playlist" id="audioMenuWrapper">
+        <!-- The carousel wrapper. -->
+        <div id="audioMenu">
+            <!-- <span id="mediaName" class="jumbotron">Musique</span> -->
+            <!-- Carousel items follow -->
 
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="la chanson de l'amour - Nirvana">
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="La cousine à Dudulle - Pierrot">
-                </div>
-
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="Un jambon dans une prairie - Jojo">
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
-                </div>
-                <div class="kc-item cover">
-                    <img src="http://img.clubic.com/00F0000004464556-photo-pochette-nevemind-nirvana.jpg" alt="">
-                </div>
-                <div id="lectureName" class="jumbotron"></div>
+            <div id="kc-song" class="menu-item">
+                <img class="kc-icon" src="ASSETS/AUDIO/song.png" alt="Songs">
             </div>
+            <div id="kc-artist" class="menu-item">
+                <img class="kc-icon" src="ASSETS/AUDIO/artist.png" alt="Artists">
+            </div>
+
+            <div id="kc-album" class="menu-item">
+                <img class="kc-icon" src="ASSETS/AUDIO/album.png" alt="Albums">
+            </div>
+            <div id="kc-playlist" class="menu-item">
+                <img class="kc-icon" src="ASSETS/AUDIO/playlist.png" alt="Playlists">
+            </div>
+            <div id="kc-equalizer" class="menu-item">
+                <img class="kc-icon" src="ASSETS/AUDIO/equalizer.png" alt="Equalizer">
+            </div>
+
+
+        </div>
+
+        <div id="interactionMenu" class="col-md-6 col-md-offset-3">
+
+            <div class="tcenter">
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-backward"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-stop"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-play"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-pause"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-fast-forward"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-down"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i></a>
+                <a href="#" class="btn btn-default"><i class="glyphicon glyphicon-volume-off"></i></a>
+            </div>
+            <!-- /.tcenter -->
 
         </div>
 
     </div>
-    <!-- /container -->
+
+</div>
+<!-- /container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        window.jQuery
-        || document
-                .write('<script src="JS/bootstrap-3.3.6/assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="JS/bootstrap-3.3.6/docs/dist/js/bootstrap.min.js"></script>
-    <script src="JS/killerCarousel/killercarousel.js"></script>
-    <script src="JS/main.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script
-            src="JS/bootstrap-3.3.6/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    window.jQuery
+    || document
+            .write('<script src="JS/bootstrap-3.3.6/assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script src="JS/bootstrap-3.3.6/docs/dist/js/bootstrap.min.js"></script>
+<script src="JS/killerCarousel/killercarousel.js"></script>
+<script src="JS/interfaceHandling.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script
+        src="JS/bootstrap-3.3.6/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
