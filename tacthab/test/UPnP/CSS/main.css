@@ -114,6 +114,10 @@
 	text-align: center;
 }
 
+#example {
+	opacity: 0;
+}
+
 @media screen and (max-width:768px) {
 	.kc-item img {
 		padding-bottom: 30px;

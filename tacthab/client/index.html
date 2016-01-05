@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html ng-app="mediaBrowser">
+
+<head>
+    <title>UPnP yal</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\test\UPnP\bundleUPnP.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="MediaBrowserMetier.js"></script>
+    <script src="MediaBrowser.js"></script>
+</head>
+
+<body>
+    <h1>UPnP</h1>
+
+    <p>Client side</p>
+
+    <p id="myJson"></p>
+
+    <div id="myImg"></div>
+
+
+    <div ng-controller="mediaBrowserCtrl">
+
+        <script>alert('toto');</script>
+        <div ng-repeat="mediaServer in mediaServers track by mediaServer.id">
+            {{mediaServer.id}}
+            <br /> {{mediaServer.name}}
+        </div>
+    </div>
+
+</body>
+
+</html>

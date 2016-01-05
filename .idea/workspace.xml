@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd1c7f0c-ffb1-42c7-90c5-928dca214a62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/ASSETS/AUDIO/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/ASSETS/AUDIO/artist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/ASSETS/AUDIO/equalizer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/ASSETS/AUDIO/playlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/ASSETS/AUDIO/song.png" />
+    <list default="true" id="cd1c7f0c-ffb1-42c7-90c5-928dca214a62" name="Default" comment="fusion avec Gwen pour suppression playlist remplace par menu detail&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/tacthab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/killercarousel.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/JS/main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/bundleUPnP.js" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/bundleUPnP.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/index.html" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/index.html" />
     </list>
     <ignored path="smartsmart.iws" />
@@ -29,86 +36,55 @@
     <favorites_list name="smartsmart" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://F:/smartSmart - tachtab -test - upnp/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.72098213">
-                  <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://F:/smartSmart - tachtab -test - upnp/CSS/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.65384614">
-                  <caret line="49" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MediaBrowser.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowser.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MediaBrowserMetier.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowserMetier.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7238205">
-                  <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="interfaceHandling.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-15.411765">
-                  <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.556962">
+              <caret line="119" column="0" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detailMedia.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.083606556">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interfaceHandling.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="108" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.745098">
+              <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -137,9 +113,10 @@
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowser.js" />
         <option value="F:/smartSmart - tachtab -test - upnp/CSS/main.css" />
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js" />
-        <option value="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" />
         <option value="F:/smartSmart - tachtab -test - upnp/index.html" />
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/index.html" />
+        <option value="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" />
+        <option value="$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js" />
       </list>
     </option>
   </component>
@@ -300,6 +277,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="killerCarousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartsmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartsmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacthab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UPnP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -385,6 +392,571 @@
       <recent name="C:\Users\Miage\smartsmart\tacthab\test\UPnP" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/test/UPnP/bundleUPnP.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/test/UPnP/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/test/UPnP/upnp.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/lib/bom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/lib/processors.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/lib/xml2js.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/sax/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/sax/LICENSE-W3C.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/sax/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/sax/lib/sax.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/sax/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/.npmignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLAttribute.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLBuilder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLCData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLComment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDAttList.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDElement.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDEntity.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDTDNotation.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDeclaration.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLDocType.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLElement.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLNode.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLProcessingInstruction.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLRaw.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLStringifier.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/XMLText.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/lib/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/chunk.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/compact.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/difference.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/drop.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropRightWhile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/dropWhile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/fill.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/findIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/findLastIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/first.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/flatten.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/flattenDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/head.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/indexOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/initial.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/intersection.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/last.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/lastIndexOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/object.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/pull.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/pullAt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/remove.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/rest.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/slice.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/sortedIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/sortedLastIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/tail.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/take.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeRightWhile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/takeWhile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/union.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/uniq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unique.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unzip.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/unzipWith.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/without.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/xor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zip.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zipObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/array/zipWith.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/chain.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/commit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/concat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/lodash.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/plant.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/reverse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/run.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/tap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/thru.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/toJSON.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/toString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/value.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/valueOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperChain.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperCommit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperConcat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperPlant.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperReverse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperToString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/chain/wrapperValue.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/all.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/any.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/at.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/collect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/contains.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/countBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/detect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/each.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/eachRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/every.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/filter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/find.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/findLast.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/findWhere.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/foldl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/foldr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/forEach.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/forEachRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/groupBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/include.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/includes.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/indexBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/inject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/invoke.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/map.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/max.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/partition.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/pluck.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reduce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reduceRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/reject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sample.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/select.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/shuffle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/size.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/some.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortByAll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sortByOrder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/sum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/collection/where.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/date.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/date/now.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/after.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/ary.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/backflow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/before.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bind.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bindAll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/bindKey.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/compose.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/curry.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/curryRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/debounce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/defer.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/delay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/flow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/flowRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/memoize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/modArgs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/negate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/once.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/partial.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/partialRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/rearg.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/restParam.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/spread.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/throttle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/function/wrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/LazyWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/LodashWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/MapCache.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/SetCache.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayConcat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayCopy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEach.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEachRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayEvery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayExtremum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayFilter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayMap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayPush.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayReduce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arrayReduceRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arraySome.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/arraySum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignDefaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignOwnDefaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/assignWith.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseAssign.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseAt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCallback.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseClone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCompareAscending.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCopy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseCreate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseDelay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseDifference.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEach.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEachRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseEvery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseExtremum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFill.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFilter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFind.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFindIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFlatten.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForIn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForOwn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForOwnRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseForRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseFunctions.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseGet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIndexOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsEqual.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsEqualDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsFunction.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseIsMatch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseLodash.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMatches.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMatchesProperty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMerge.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseMergeDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseProperty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/basePropertyDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/basePullAt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseRandom.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseReduce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSetData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSlice.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSome.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSortBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSortByOrder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseSum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseToString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseUniq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseValues.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseWhile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/baseWrapperValue.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/binaryIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/binaryIndexBy.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/bindCallback.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/bufferClone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/cacheIndexOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/cachePush.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/charsLeftIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/charsRightIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/compareAscending.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/compareMultiple.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/composeArgs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/composeArgsRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createAggregator.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createAssigner.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBaseEach.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBaseFor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createBindWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCache.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCompounder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCtorWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createCurry.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createDefaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createExtremum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFind.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFindIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFindKey.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createFlow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForEach.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForIn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createForOwn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createHybridWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createObjectMapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPadDir.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPadding.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPartial.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createPartialWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createReduce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createRound.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createSortedIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/createWrapper.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/deburrLetter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalArrays.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalByTag.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/equalObjects.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/escapeHtmlChar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/escapeRegExpChar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/escapeStringChar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getFuncName.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getLength.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getMatchData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getNative.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/getView.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/indexOfNaN.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneArray.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneByTag.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/initCloneObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/invokePath.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isArrayLike.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isIterateeCall.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isKey.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isLaziable.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isLength.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isObjectLike.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isSpace.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/isStrictComparable.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyClone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyReverse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/lazyValue.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapDelete.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapGet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapHas.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mapSet.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mergeData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/mergeDefaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/metaMap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/pickByArray.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/pickByCallback.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reEscape.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reEvaluate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reInterpolate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/realNames.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/reorder.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/replaceHolders.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/setData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/shimKeys.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/sortedUniq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toIterable.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/toPath.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/trimmedLeftIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/trimmedRightIndex.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/unescapeHtmlChar.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/internal/wrapperClone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/clone.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/cloneDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/eq.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/gt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/gte.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isArguments.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isArray.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isBoolean.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isDate.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isElement.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isEmpty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isEqual.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isError.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isFinite.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isFunction.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isMatch.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNaN.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNative.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNull.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isNumber.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isPlainObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isRegExp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isTypedArray.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/isUndefined.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/lt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/lte.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/toArray.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/lang/toPlainObject.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/add.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/ceil.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/floor.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/max.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/round.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/math/sum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number/inRange.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/number/random.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/assign.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/create.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/defaults.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/defaultsDeep.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/extend.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/findKey.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/findLastKey.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forIn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forInRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forOwn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/forOwnRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/functions.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/get.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/has.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/invert.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/keys.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/keysIn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/mapKeys.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/mapValues.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/merge.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/methods.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/omit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/pairs.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/pick.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/result.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/set.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/transform.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/values.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/object/valuesIn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/camelCase.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/capitalize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/deburr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/endsWith.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/escape.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/escapeRegExp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/kebabCase.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/pad.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/padLeft.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/padRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/parseInt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/repeat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/snakeCase.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/startCase.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/startsWith.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/template.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/templateSettings.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trimLeft.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trimRight.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/trunc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/unescape.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/string/words.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/attempt.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/callback.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/constant.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/identity.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/iteratee.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/matches.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/matchesProperty.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/method.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/methodOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/mixin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/noop.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/property.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/propertyOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/range.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/times.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/node_modules/lodash/utility/uniqueId.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/node_modules/xmlbuilder/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/tacthab/node_modules/xml2js/package.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -449,18 +1021,24 @@
       <option name="project" value="LOCAL" />
       <updated>1451939048933</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fusion avec Gwen pour suppression playlist remplace par menu detail&#10;">
+      <created>1451992740172</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451992740172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -538,14 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -637,14 +1207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018438177">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/killercarousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37310195">
@@ -679,46 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowserMetier.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/smartSmart - tachtab -test - upnp/CSS/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="49" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.411765">
-          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/smartSmart - tachtab -test - upnp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72098213">
@@ -727,10 +1249,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/smartSmart - tachtab -test - upnp/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018973215">
+          <caret line="49" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055314533">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/MediaBrowserMetier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5715835">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.745098">
+          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="108" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7238205">
-          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+        <state vertical-scroll-proportion="-3.556962">
+          <caret line="119" column="0" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.083606556">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
