@@ -44,8 +44,8 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var utils = __webpack_require__(1),
-	    parser = new DOMParser();
+	var utils = __webpack_require__(1);
+
 	__webpack_require__(52);
 	console.log("Accessing server to get context.");
 	var getContext = utils.XHR('GET', '/getContext'),
@@ -63,13 +63,20 @@
 	        }
 	        if (mediaServers[0]) {
 	            var idFirstBrick = mediaServers[0].id;
+	            console.log(utils);
 	            utils.call(idFirstBrick,
 	                'Browse',
-	                [0],
+	                [1],
 	                function (res) {
 	                    console.log("Reponse XML :  " + res);
-	                    var doc = parser.parseFromString(res, "text/xml");
-	                    console.log(doc);
+	                    convertXmlToDom(res, "demo");
+	                });
+	            utils.call(idFirstBrick,
+	                'getMetaData',
+	                [1],
+	                function (res) {
+	                    console.log("Reponse XML :  " + res);
+	                    convertXmlToDom(res, "bis");
 	                });
 	        }
 	        window.mediaServers = mediaServers;
@@ -78,6 +85,33 @@
 	        return err;
 	    }
 	);
+	function convertXmlToDom(xml, id) {
+	    var parser, xmlDoc;
+	    parser = new DOMParser();
+	    xmlDoc = parser.parseFromString(xml, "text/xml");
+	    document.getElementById(id).innerHTML =
+	        myLoop(xmlDoc.documentElement);
+	}
+	function myLoop(x) {
+	    var y, xLen, txt;
+	    txt = "";
+	    x = x.childNodes;
+	    xLen = x.length;
+	    for (var i = 0; i < xLen; i++) {
+	        y = x[i];
+	        if(y.nodeName === "Result"){
+	            txt += "<br />" + "<br />" + "<br />" + y.childNodes[0].nodeValue + "<br />" + "<br />" + "<br />";
+	        }
+	        if (y.nodeType !== 3) {
+	            if (y.childNodes[0] !== undefined) {
+	                console.log("y : " + y);
+	                txt += myLoop(y);
+	            }
+	        }
+	    }
+	    return txt;
+	}
+
 	// Subscribing to appearing/disappearing events
 	utils.initIO(window.location.origin + "/m2m");
 	utils.io.on("brickAppears", function (json) {
