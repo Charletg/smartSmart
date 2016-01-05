@@ -76,7 +76,7 @@ var mediaServers = [];
                     mediaServer.name = myServices[service].name;
                     mediaServer.iconURL = myServices[service].iconURL;
                     mediaServers.push(mediaServer);
-
+                    console.log("media: "+mediaServer.name);
                 };
                 //mediaServers = JSON.stringify(mediaServers);
                 if (mediaServers[0]) {
