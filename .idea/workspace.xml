@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd1c7f0c-ffb1-42c7-90c5-928dca214a62" name="Default" comment="fusion avec Gwen pour suppression playlist remplace par menu detail&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/tacthab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/shadow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/client/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/killercarousel.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/JS/main.js" afterPath="" />
+    <list default="true" id="cd1c7f0c-ffb1-42c7-90c5-928dca214a62" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/audio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/param.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/playlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/tv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/JS/killerCarousel/images/video.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/tacthab" afterPath="$PROJECT_DIR$/tacthab/tacthab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/bundleUPnP.js" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/bundleUPnP.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/index.html" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacthab/test/UPnP/upnp.js" afterPath="$PROJECT_DIR$/tacthab/test/UPnP/upnp.js" />
     </list>
     <ignored path="smartsmart.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,20 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.556962">
-              <caret line="119" column="0" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.52901787">
+              <caret line="160" column="65" selection-start-line="160" selection-start-column="65" selection-end-line="160" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detailMedia.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detailMedia.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.083606556">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding />
             </state>
@@ -114,9 +111,9 @@
         <option value="F:/smartSmart - tachtab -test - upnp/CSS/main.css" />
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/JS/interfaceHandling.js" />
         <option value="F:/smartSmart - tachtab -test - upnp/index.html" />
-        <option value="$PROJECT_DIR$/tacthab/test/UPnP/index.html" />
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/CSS/main.css" />
         <option value="$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js" />
+        <option value="$PROJECT_DIR$/tacthab/test/UPnP/index.html" />
       </list>
     </option>
   </component>
@@ -282,6 +279,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="killerCarousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartsmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smartsmart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacthab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UPnP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="killerCarousel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1027,18 +1058,24 @@
       <option name="project" value="LOCAL" />
       <updated>1451992740172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rectif erreur commit&#10;">
+      <created>1451996196317</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1451996196317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1089,7 +1126,8 @@
     <MESSAGE value="Affichage des mediaServeur" />
     <MESSAGE value="affichage des mediaServeur dispo a tester&#10;" />
     <MESSAGE value="fusion avec Gwen pour suppression playlist remplace par menu detail&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="fusion avec Gwen pour suppression playlist remplace par menu detail&#10;" />
+    <MESSAGE value="rectif erreur commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="rectif erreur commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1289,18 +1327,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.556962">
-          <caret line="119" column="0" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/JS/detailMedia.js">
+    <entry file="file://$PROJECT_DIR$/tacthab/test/UPnP/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083606556">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.52901787">
+          <caret line="160" column="65" selection-start-line="160" selection-start-column="65" selection-end-line="160" selection-end-column="65" />
           <folding />
         </state>
       </provider>
