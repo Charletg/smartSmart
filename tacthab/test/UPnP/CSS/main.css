@@ -19,6 +19,7 @@
 
 #audioMenuWrapper {
     height: 200px;
+    opacity: 0.8;
 }
 
 .kc-item img {
