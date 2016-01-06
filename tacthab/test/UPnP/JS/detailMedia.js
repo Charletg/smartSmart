@@ -1,3 +1,5 @@
+
+
 $('#kc-song').on('click', function () {
     $('.detail-media').not($('#kc-song')).hide();
     $('#toutesLesChansons').show();
@@ -39,6 +41,25 @@ $('#kc-artist').on('click', function () {
 
 $('#kc-album').on('click', function () {
     $('.detail-media').not($('#kc-album')).hide();
+    $('#parAlbum').show();
+    if ($('#parAlbum_wrapper').size() == 0) {
+        $('#parAlbum').dataTable({
+            "bLengthChange": false,
+            "bPaginate": false
+        }).rowGrouping({
+            bExpandableGrouping: true,
+            asExpandedGroups: [],
+            iGroupingColumnIndex: 2,
+            sGroupingColumnSortDirection: "asc"
+        });
+
+    } else {
+        $('#parAlbum_wrapper').show();
+    }
+    $('#parAlbum_wrapper').addClass('detail-media');
+    $('#parAlbum').animate({
+        opacity: '0.6'
+    }, "slow");
 });
 
 $('#kc-playlist').on('click', function () {
@@ -61,3 +82,9 @@ $('.btn-play').on('click', function () {
         $(this).children().addClass('glyphicon-pause')
     }
 });
+
+$('.container').on('click', function(e) {
+    console.log(e.target);
+
+});
+
