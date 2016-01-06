@@ -19,6 +19,7 @@ $('#kc-artist').on('click', function () {
     $('#parArtiste').show();
     if ($('#parArtiste_wrapper').size() == 0) {
         $('#parArtiste').dataTable({
+            responsive:true,
             "bLengthChange": false,
             "bPaginate": false
         }).rowGrouping({
@@ -42,6 +43,7 @@ $('#kc-album').on('click', function () {
     $('#parAlbum').show();
     if ($('#parAlbum_wrapper').size() == 0) {
         $('#parAlbum').dataTable({
+            responsive:true,
             "bLengthChange": false,
             "bPaginate": false
         }).rowGrouping({

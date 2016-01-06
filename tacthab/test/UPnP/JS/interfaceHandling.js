@@ -16,21 +16,6 @@ $(function () {
 
     });
 
-    /*$('#playlistCarousel .kc-item').bind('mousemove', function (evt) {
-        // Get a reference to the image in the carousel item.
-        // Note, we look for one with alt attribute, as the shadow is also an
-        // image.
-        var $img = $(this).find('[alt]');
-        // Pull the text out of the alt attribute and insert into text
-        // description div.
-        if ($img.attr('alt') === '') {
-            $('#lectureName').text("- pas d'information -")
-        } else {
-            ($('#lectureName').text($img.attr('alt')));
-        }
-
-    });*/
-
     // Create an event handler.
     $('#mediaCarousel .kc-item').bind('touchmove', function (evt) {
         // Get a reference to the image in the carousel item.
@@ -42,21 +27,6 @@ $(function () {
         $('#mediaName').text($img.attr('alt'));
 
     });
-
-    /*$('#playlistCarousel .kc-item').bind('touchmove', function (evt) {
-        // Get a reference to the image in the carousel item.
-        // Note, we look for one with alt attribute, as the shadow is also an
-        // image.
-        var $img = $(this).find('[alt]');
-        // Pull the text out of the alt attribute and insert into text
-        // description div.
-        if ($img.attr('alt') === '') {
-            $('#lectureName').text("- pas d'information -")
-        } else {
-            ($('#lectureName').text($img.attr('alt')));
-        }
-
-    });*/
 
 
     $('#mediaCarousel').KillerCarousel({
@@ -72,32 +42,45 @@ $(function () {
         autoScale: 100
     });
 
-    /* $('#playlistCarousel').KillerCarousel({
-         // Default natural width of carousel.
-         width: 800,
-         // Item spacing in 3d (has CSS3 3d) mode.
-         spacing3d: null,
-         renderer3d: null,
-         renderer2d: 'render2dBasic',
-         // Item spacing in 2d (no CSS3 3d) mode.
-         spacing2d: 200,
-         showShadow: false,
-         showReflection: true,
-         infiniteLoop: false,
-         autoScale: 60,
-         itemAlign: top,
-         fadeEdgeItems: true
-     });
-
-     $('.playlist').children('.kc-wrap').css('background-image', 'none');
-     $('.playlist').css('padding', '5px 5px 5px 5px');*/
-
     //media servers icons focus when hover and clicked on
 
 
     $('.icon').on('click', function () {
-        $('.icon').css("opacity", "0.5");
-        $(this).css("opacity", "1");
+
+            $('.icon').removeClass('selection');
+            $('.icon').css("opacity", "0.5");
+            $(this).addClass('selection');
+            $(this).css("opacity", "1");
+
+        $('#toutesLesChansons').DataTable().clear();
+        $('#parArtiste').DataTable().clear();
+        $('#parAlbum').DataTable().clear();
+
+            var item = new Array();
+
+            for (var i = 0; i<20; i++)
+            {
+                item[i] = new Array('truc' + i, 'toto' + i, 'album du siecle' + i)
+
+                $('#toutesLesChansons').dataTable().fnAddData([
+                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                    item[i][1],
+                    item[i][2]
+                ]);
+                $('#parArtiste').dataTable().fnAddData([
+                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                    item[i][1]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                    item[i][2]
+                ]);
+                $('#parAlbum').dataTable().fnAddData([
+                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                    item[i][1],
+                    item[i][2]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>'
+                ]);
+            }
+            $('#parArtiste_wrapper').hide();
+            $('#parAlbum_wrapper').hide();
+
     });
 
 
