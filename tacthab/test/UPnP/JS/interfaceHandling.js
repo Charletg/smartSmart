@@ -115,7 +115,6 @@ $(function () {
         $('.menu-item').css("opacity", "0.3");
 
         var top = $("#audioMenuWrapper").position().top;
-        console.log(top);
         $('#medias').animate({
             opacity: 0
         });
@@ -129,7 +128,6 @@ $(function () {
         })
 
         $('.menu-item img').animate({
-            'height': '50%',
             'width': '50%',
             'margin': '0',
             'background-color': 'green'

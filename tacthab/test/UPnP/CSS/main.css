@@ -33,15 +33,19 @@
 #playlistCarousel .kc-item img {
 	pointer-events: default;
 	/* Make images non-selectable. */
-	width: 40%;
+	width: 40px;
 	/* Make images expand to wrapper size (used in 2d modes). */
-	height: 40%;
+	height: 40px;
 	padding-bottom: 20px;
 	top: 30px;
 }
 
 .kc-wrap {
 	opacity: 0.8;
+}
+
+td {
+	vertical-align: middle;
 }
 
 #playlistCarousel {
@@ -69,7 +73,7 @@
 
 .menu-item img {
 	width: 60%;
-	height: 60%;
+
 }
 
 /*#mediaName,#lectureName {
@@ -114,8 +118,14 @@
 	text-align: center;
 }
 
-#example {
+#toutesLesChansons {
 	opacity: 0;
+	display:none;
+}
+
+#parArtiste {
+	opacity: 0;
+	display:none;
 }
 
 @media screen and (max-width:768px) {
