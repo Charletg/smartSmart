@@ -2,6 +2,8 @@ $(function () {
     //$('#').hide();
     $('#interactionMenu').hide();
     $('#audioMenuWrapper').hide();
+    $('.icon').css("opacity", "0.5");
+    $('.icon').first().css("opacity", "1");
     // Create an event handler.
     $('#mediaCarousel .kc-item').bind('mousemove', function (evt) {
         // Get a reference to the image in the carousel item.
@@ -70,25 +72,25 @@ $(function () {
         autoScale: 100
     });
 
-   /* $('#playlistCarousel').KillerCarousel({
-        // Default natural width of carousel.
-        width: 800,
-        // Item spacing in 3d (has CSS3 3d) mode.
-        spacing3d: null,
-        renderer3d: null,
-        renderer2d: 'render2dBasic',
-        // Item spacing in 2d (no CSS3 3d) mode.
-        spacing2d: 200,
-        showShadow: false,
-        showReflection: true,
-        infiniteLoop: false,
-        autoScale: 60,
-        itemAlign: top,
-        fadeEdgeItems: true
-    });
+    /* $('#playlistCarousel').KillerCarousel({
+         // Default natural width of carousel.
+         width: 800,
+         // Item spacing in 3d (has CSS3 3d) mode.
+         spacing3d: null,
+         renderer3d: null,
+         renderer2d: 'render2dBasic',
+         // Item spacing in 2d (no CSS3 3d) mode.
+         spacing2d: 200,
+         showShadow: false,
+         showReflection: true,
+         infiniteLoop: false,
+         autoScale: 60,
+         itemAlign: top,
+         fadeEdgeItems: true
+     });
 
-    $('.playlist').children('.kc-wrap').css('background-image', 'none');
-    $('.playlist').css('padding', '5px 5px 5px 5px');*/
+     $('.playlist').children('.kc-wrap').css('background-image', 'none');
+     $('.playlist').css('padding', '5px 5px 5px 5px');*/
 
     //media servers icons focus when hover and clicked on
 
@@ -99,49 +101,140 @@ $(function () {
     });
 
 
+    $('.kc-item').on('click', function () {
+        if ($(this).attr('id') != "audio") {
+            $('#audioMenuWrapper').animate({
+                opacity: 0
+            });
+            //
+            $('#audioMenu').css("height", "0px");
+            $('#audioMenuWrapper').hide();
+        }
+    });
+
     $('#audio').on('click', function () {
+        $('#audioMenu').css("height", '100px');
         $('#audioMenuWrapper').show();
-        $('#audioMenu').animate({
-            height: '45px'
+        $('#audioMenuWrapper').animate({
+            opacity: '0.8'
         });
+
         $('.menu-item').animate({
             opacity: '0.6'
         }, "slow");
     });
 
 
-    $('.menu-item').on('click', function () {
-        $('#medias').css('display', 'none');
-        $('.menu-item').css("opacity", "0.3");
 
-        var top = $("#audioMenuWrapper").position().top;
+
+    $('.menu-item').on('click', function () {
+
+        //   $('#medias').css('display', 'none');
+
+        if (window.innerWidth < 768) {
+            $('#logo').animate({
+                opacity: 0
+            });
+        }
+
         $('#medias').animate({
             opacity: 0
         });
-        $("#medias").css("heigth", "0");
-        $("#audioMenuWrapper").css("top", top);
-        $('#audioMenuWrapper').animate({
-            top: '200px'
+        $("#medias").animate({
+            height: '0px',
+            margin: 0,
+            padding: 0
         });
-        $('.menu-item').animate({
-            'margin-top': '0.7%'
-        })
+
+
+        $("medias").hide();
+        $('.menu-item').css("opacity", "0.3");
 
         $('.menu-item img').animate({
-            'width': '50%',
+            'width': '20%',
             'margin': '0',
             'background-color': 'green'
         })
+        $('#audioMenuWrapper').animate({
+            'padding-top': '10px',
+            'padding-bottom': '20x',
+            'background-color': 'green',
+            'height': '50px'
+        })
 
-        getToScreen($(this).attr('id'));
+        if ($("#back").css("opacity") == 0) {
+            if (window.innerWidth >= 770) {
+                var arrow_pos = $(".container").css('margin-left').replace("px", "") - 25;
+                console.log(arrow_pos);
+                $('#back').animate({
+                    left: arrow_pos,
+                    opacity: 0.6
+                }, "slow");
+            } else {
+                console.log("ayy");
+                $('#back').animate({
+                    opacity: 0.6,
+                    left: '20px'
+                });
+            }
+
+        }
+        $(this).css("opacity", "1");
+
+
     });
 
-    //function that displays the music browser by the right category
-    function getToScreen(type) {
-        $("#" + type).css("opacity", "1");
+    window.addEventListener("resize", replaceArrow);
+
+    function replaceArrow() {
+        if (window.innerWidth >= 770) {
+            if ($("#back").css("opacity") != 0) {
+                var arrow_pos = $(".container").css('margin-left').replace("px", "") - 25;
+                console.log(arrow_pos);
+                $("#back").css("left", arrow_pos);
+            }
+        } else {
+            $("#back").css("top", '50px');
+            $("#back").css("left", '50px');
+        }
+    }
+
+
+    $('#back').on('click', function () {
+        if ($('#back').css("opacity") != 0) {
+            getBackToAudio();
+        }
+    });
+
+    function getBackToAudio() {
+        $('.detail-media').hide();
+
+
+        if (window.innerWidth < 768) {
+            $('#logo').animate({
+                opacity: 1
+            });
+        }
+        $("#medias").removeAttr('style');
+        $("#medias").show();
+
+
+
+        $('.menu-item').css("opacity", "0.3");
+
+        $('.menu-item img').removeAttr('style');
+
+        $('#audioMenuWrapper').removeAttr('style');
+
+        $("#back").animate({
+            opacity: 0,
+            left: 0
+        });
+
 
 
     }
+
 
 
 });

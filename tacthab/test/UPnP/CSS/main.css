@@ -1,7 +1,8 @@
 .mediaServers {
-	text-align: right;
-	margin-top: 70px;
+    text-align: right;
+    margin-top: 70px;
 }
+
 
 /*.icon {
 	width: 5%;
@@ -17,48 +18,49 @@
 }*/
 
 #audioMenuWrapper {
-	height: 200px;
+    height: 200px;
 }
 
 .kc-item img {
-	position: absolute;
-	pointer-events: none;
-	/* Make images non-selectable. */
-	width: 100%;
-	/* Make images expand to wrapper size (used in 2d modes). */
-	height: 100%;
-	padding-bottom: 10px;
+    position: absolute;
+    pointer-events: none;
+    /* Make images non-selectable. */
+    width: 100%;
+    /* Make images expand to wrapper size (used in 2d modes). */
+    height: 100%;
+    padding-bottom: 10px;
 }
 
 #playlistCarousel .kc-item img {
-	pointer-events: default;
-	/* Make images non-selectable. */
-	width: 40px;
-	/* Make images expand to wrapper size (used in 2d modes). */
-	height: 40px;
-	padding-bottom: 20px;
-	top: 30px;
+    pointer-events: default;
+    /* Make images non-selectable. */
+    width: 40px;
+    /* Make images expand to wrapper size (used in 2d modes). */
+    height: 40px;
+    padding-bottom: 20px;
+    top: 30px;
 }
 
 .kc-wrap {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 td {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 #playlistCarousel {
-	padding: 0px;
-	height: 150px;
-	margin: 0 auto;
+    padding: 0px;
+    height: 150px;
+    margin: 0 auto;
 }
 
 #audioMenu {
-	height: 0px;
-	text-align: center;
-	display: flex;
+    height: 0px;
+    text-align: center;
+    display: flex;
 }
+
 
 /*.menu-item {
 	height: 60px;
@@ -72,9 +74,10 @@ td {
 }*/
 
 .menu-item img {
-	width: 60%;
-
+    width: 60%;
+    cursor: pointer;
 }
+
 
 /*#mediaName,#lectureName {
 				  position: absolute;
@@ -102,63 +105,82 @@ td {
 }*/
 
 #playlistCarousel .kc-horizon img {
-	opacity: 0.5;
+    opacity: 0.5;
 }
 
 #playlistCarousel .kc-horizon .kc-front-item img {
-	opacity: 1;
+    opacity: 1;
 }
 
 .kc-front-item {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .tcenter {
-	padding: 10px;
-	text-align: center;
+    padding: 10px;
+    text-align: center;
 }
 
-#parArtiste, #parAlbum, #toutesLesChansons {
-	opacity: 0;
-	display:none;
+#parArtiste,
+#parAlbum,
+#toutesLesChansons {
+    opacity: 0;
+    display: none;
 }
 
-.group{
-	background: linen;
-	-moz-box-shadow: 2px 2px 5px 0px #c0c0c0;
-	-webkit-box-shadow: 2px 2px 5px 0px #c0c0c0;
-	-o-box-shadow: 2px 2px 5px 0px #c0c0c0;
-	box-shadow: 2px 2px 5px 0px #c0c0c0;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=134, Strength=5);
+.group {
+    background: linen;
+    -moz-box-shadow: 2px 2px 5px 0px #c0c0c0;
+    -webkit-box-shadow: 2px 2px 5px 0px #c0c0c0;
+    -o-box-shadow: 2px 2px 5px 0px #c0c0c0;
+    box-shadow: 2px 2px 5px 0px #c0c0c0;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=134, Strength=5);
+}
+
+#back {
+    position: absolute;
+    top: 160px;
+    opacity: 0;
+    width: 40px;
+    //max-width: 2%;
+    height: auto;
 }
 
 @media screen and (max-width:768px) {
-	.kc-item img {
-		padding-bottom: 30px;
-	}
-	#mediaName,
-	#playlist {
-		font-size: 19px;
-		width: 145px;
-	}
-	#lectureName {
-		font-size: 15px;
-	}
-	#playlistCarousel {
-		height: 200px;
-	}
-	.btn-default {
-		width: 30px;
-		height: 30px;
-	}
-	#audioMenu {
-		display: flex;
-	}
-	.menu-item img {
-		width: 60%;
-		height: 60%;
-	}
-	#audioMenuWrapper {
-		height: 100px;
-	}
+    .kc-item img {
+        padding-bottom: 30px;
+    }
+    #mediaName,
+    #playlist {
+        font-size: 19px;
+        width: 145px;
+    }
+    #lectureName {
+        font-size: 15px;
+    }
+    #playlistCarousel {
+        height: 200px;
+    }
+    .btn-default {
+        width: 30px;
+        height: 30px;
+    }
+    #audioMenu {
+        display: flex;
+    }
+    .menu-item img {
+        width: 60%;
+        min-width: 20px;
+    }
+    #audioMenuWrapper {
+        height: 100px;
+        cursor: pointer;
+    }
+    #back {
+        opacity: 0;
+        top: 6%;
+        width: 35px;
+        left: 50%; //max-width: 2%;
+        height: auto;
+    }
 }
