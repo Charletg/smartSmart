@@ -1,0 +1,75 @@
+#musicPlayer {
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+    height: 0px;
+    background: #F1F1F1;
+    bottom: 0;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#controlButtons {
+    vertical-align: right;
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    position: fixed;
+    margin-left: -39%;
+    bottom: 10px;
+    opacity: 0;
+}
+
+#playpause {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: fixed;
+}
+
+#stop {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 50px;
+    position: fixed;
+}
+
+#song-artist {
+    display: inline-block;
+    position: fixed;
+    margin-left: -3%;
+    margin-top: 3px;
+}
+
+#song {
+    font-weight: bold;
+    font-family: "Verdana";
+}
+
+@media screen and (max-width:768px) {
+    #musicPlayer {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #controlButtons {
+        vertical-align: right;
+        margin: 10px;
+        width: 80px;
+        height: 30px;
+        display: inline-block;
+        position: fixed;
+        margin-left: -60%;
+        bottom: 10px;
+    }
+    #song-artist {
+        margin-left: -18%;
+    }
+}

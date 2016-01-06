@@ -113,6 +113,10 @@ td {
     opacity: 1;
 }
 
+.invisible {
+    display: none;
+}
+
 .kc-front-item {
     cursor: pointer;
 }

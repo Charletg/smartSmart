@@ -1,5 +1,3 @@
-
-
 $('#kc-song').on('click', function () {
     $('.detail-media').not($('#kc-song')).hide();
     $('#toutesLesChansons').show();
@@ -71,20 +69,20 @@ $('#kc-equalizer').on('click', function () {
 });
 
 $('.btn-play').on('click', function () {
-    console.log('toto');
-    var enCours = $('.glyphicon-pause').not($(this).children());
-    enCours.removeClass('glyphicon-pause').addClass('glyphicon-play');
+    var enCours = $('.invisible').not($(this).children());
+    enCours.removeClass('invisible').addClass('glyphicon-play');
+    enCours.parent().show();
     if ($(this).children().hasClass('glyphicon-pause')) {
         $(this).children().removeClass('glyphicon-pause')
         $(this).children().addClass('glyphicon-play')
     } else {
         $(this).children().removeClass('glyphicon-play')
-        $(this).children().addClass('glyphicon-pause')
+        $(this).hide();
+        $(this).children().addClass('invisible')
     }
 });
 
-$('.container').on('click', function(e) {
+$('.container').on('click', function (e) {
     console.log(e.target);
 
 });
-

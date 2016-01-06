@@ -17,7 +17,9 @@
     <script src="MediaBrowserMetier.js"></script>
     <script src="MediaBrowser.js"></script>
 
+
     <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/musicPlayer.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
     <link href="JS/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +64,7 @@
                 <div id="navbar" class="navbar-collapse collapse row">
 
                     <ul ng-controller="mediaBrowserCtrl" class="nav navbar-nav navbar-right row center-block">
-                        <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src icon"><img ng-src={{mediaServer.iconURL}} alt={{mediaServer.name}} title={{mediaServer.name}}></li>
+                        <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src icon"><img class="mediaServer" id={{mediaServer.id}} ng-src={{mediaServer.iconURL}} alt={{mediaServer.name}} title={{mediaServer.name}}></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -161,9 +163,9 @@
 
             <tbody>
                 <tr>
-                    <td>La danse des canards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
+                    <td>La danse des connardnards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
                     <td>Dudulle</td>
-                    <td>La fête à dudulle</td>
+                    <td>La fête à duolze</td>
                 </tr>
                 <tr>
                     <td>La danse des canards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
@@ -216,9 +218,9 @@
                     <td>La fête à dudulle</td>
                 </tr>
                 <tr>
-                    <td>La danse des canards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
+                    <td>La danse des connanards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
                     <td>Dudulle<a href="#" class="btn btn-default btn-play btn-play-all pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
-                    <td>La fête à dudulle</td>
+                    <td>La fête à dudulle tencule</td>
                 </tr>
                 <tr>
                     <td>La danse des canards<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a></td>
@@ -281,6 +283,17 @@
             </tbody>
         </table>
 
+
+    </div>
+    <div id="musicPlayer">
+        <div id="controlButtons">
+            <img id="playpause">
+            <img id="stop" src="ASSETS/MUSICPLAYER/stop.png">
+        </div>
+        <div id="song-artist">
+            <div id="song"></div>
+            <div id="artist"></div>
+        </div>
     </div>
     <!-- /container -->
 
@@ -298,6 +311,7 @@
     <script src="JS/interfaceHandling.js"></script>
     <script src="JS/jquery.dataTables.grouping.js"></script>
     <script src="JS/detailMedia.js"></script>
+    <script src="JS/musicPlayer.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/dataTables.bootstrap.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.0.0/js/dataTables.responsive.min.js"></script>
