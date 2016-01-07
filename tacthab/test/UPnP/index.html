@@ -318,7 +318,13 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="JS/bootstrap-3.3.6/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="JS/interfaceHandling.js"></script>
-
+    <script>setTimeout(
+            function()
+            {
+                $('.icon').css("opacity", "0.5");
+                $('.icon').first().css("opacity", "1");    //do something special
+            }, 1000);
+    </script>
 </body>
 
 </html>

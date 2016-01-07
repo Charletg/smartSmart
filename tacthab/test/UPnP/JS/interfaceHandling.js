@@ -233,6 +233,4 @@ $(function () {
 
     }
 
-    $('.icon').css("opacity", "0.5");
-    $('.icon').first().css("opacity", "1");
 });
