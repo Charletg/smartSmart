@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="mediaBrowser">
+<html ng-app="myApp">
 
 <head>
     <meta charset="utf-8">
@@ -14,8 +14,8 @@
 
     <link rel="stylesheet" href="bundleUPnP.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="MediaBrowserMetier.js"></script>
-    <script src="MediaBrowser.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
 
     <link href="CSS/main.css" rel="stylesheet">
     <link href="CSS/musicPlayer.css" rel="stylesheet">
@@ -47,7 +47,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body ng-controller="ServeurMediasController">
 
     <div class="container">
 
@@ -63,7 +63,7 @@
                 <div id="navbar" class="navbar-collapse collapse row">
 
                     <ul ng-controller="mediaBrowserCtrl" class="nav navbar-nav navbar-right row center-block">
-                        <li ng-repeat="mediaServer in mediaServers track by mediaServer.id" class="icone-src icon"><img ng-src={{mediaServer.iconURL}} alt={{mediaServer.id}} title={{mediaServer.name}}></li>
+                        <li ng-repeat="media in medias track by media.id" class="icone-src icon"><img class="icone-src" ng-src={{media.iconURL}} alt={{media.id}} title={{media.name}}></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -306,8 +306,8 @@
     </script>
     <script src="JS/bootstrap-3.3.6/docs/dist/js/bootstrap.min.js"></script>
     <script src="JS/killerCarousel/killercarousel.js"></script>
-    <script src="JS/interfaceHandling.js"></script>
     <script src="JS/jquery.dataTables.grouping.js"></script>
+    <script src="bundleUPnP.js"></script>
     <script src="JS/detailMedia.js"></script>
     <script src="JS/musicPlayer.js"></script>
     <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
@@ -315,6 +315,12 @@
     <script src="https://cdn.datatables.net/responsive/2.0.0/js/dataTables.responsive.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="JS/bootstrap-3.3.6/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('.icon').css("opacity", "0.5");
+        // $('.icon').first().css("opacity", "1");
+    </script>
+
+
 </body>
 
 </html>
