@@ -14,7 +14,7 @@ $(function () {
         stopTheSong();
     });
 
-    $('.btn-play').on('click', function () {
+    $('table').on('click', '.btn-play', function () {
         console.log("SIBLINGS");
         console.log($(this).parent().text());
         playSong($(this).parent().text(), $(this).parent().parent().children().eq(1).text());

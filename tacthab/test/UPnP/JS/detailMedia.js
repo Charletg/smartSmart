@@ -1,8 +1,14 @@
+$(function() {
+
+var toutesLesChansons, parArtiste, parAlbum;
+
 $('#kc-song').on('click', function () {
     $('.detail-media').not($('#kc-song')).hide();
+    $('#parArtiste_wrapper').hide();
+    $('#parAlbum_wrapper').hide();
     $('#toutesLesChansons').show();
     if ($('#toutesLesChansons_wrapper').size() == 0) {
-        $('#toutesLesChansons').DataTable({
+        toutesLesChanson = $('#toutesLesChansons').DataTable({
             responsive: true
         });
         $('#toutesLesChansons_wrapper').addClass('detail-media');
@@ -16,9 +22,11 @@ $('#kc-song').on('click', function () {
 
 $('#kc-artist').on('click', function () {
     $('.detail-media').not($('#kc-artist')).hide();
+    $('#toutesLesChansons_wrapper').hide();
+    $('#parAlbum_wrapper').hide();
     $('#parArtiste').show();
     if ($('#parArtiste_wrapper').size() == 0) {
-        $('#parArtiste').dataTable({
+        parArtiste = $('#parArtiste').dataTable({
             responsive:true,
             "bLengthChange": false,
             "bPaginate": false
@@ -40,9 +48,11 @@ $('#kc-artist').on('click', function () {
 
 $('#kc-album').on('click', function () {
     $('.detail-media').not($('#kc-album')).hide();
+    $('#toutesLesChansons_wrapper').hide();
+    $('#parArtiste_wrapper').hide();
     $('#parAlbum').show();
     if ($('#parAlbum_wrapper').size() == 0) {
-        $('#parAlbum').dataTable({
+        parAlbum = $('#parAlbum').dataTable({
             responsive:true,
             "bLengthChange": false,
             "bPaginate": false
@@ -70,7 +80,9 @@ $('#kc-equalizer').on('click', function () {
     $('.detail-media').not($('#kc-equalizer')).hide();
 });
 
-$('.btn-play').on('click', function () {
+
+
+$('td').on('click','.btn-play', function () {
     var enCours = $('.invisible').not($(this).children());
     enCours.removeClass('invisible').addClass('glyphicon-play');
     enCours.parent().show();
@@ -84,7 +96,5 @@ $('.btn-play').on('click', function () {
     }
 });
 
-$('.container').on('click', function (e) {
-    console.log(e.target);
 
 });

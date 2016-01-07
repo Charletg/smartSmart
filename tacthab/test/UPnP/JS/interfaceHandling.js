@@ -2,8 +2,7 @@ $(function () {
     //$('#').hide();
     $('#interactionMenu').hide();
     $('#audioMenuWrapper').hide();
-    $('.icon').css("opacity", "0.5");
-    $('.icon').first().css("opacity", "1");
+
     // Create an event handler.
     $('#mediaCarousel .kc-item').bind('mousemove', function (evt) {
         // Get a reference to the image in the carousel item.
@@ -45,43 +44,60 @@ $(function () {
     //media servers icons focus when hover and clicked on
 
 
-    $('.icon').on('click', function () {
+    $('body').on('click', '.icon', function () {
 
-            $('.icon').removeClass('selection');
-            $('.icon').css("opacity", "0.5");
-            $(this).addClass('selection');
-            $(this).css("opacity", "1");
+        $('.icon').removeClass('selection');
+        $('.icon').css("opacity", "0.5");
+        $(this).addClass('selection');
+        $(this).css("opacity", "1");
 
+
+        console.log('maj')
         $('#toutesLesChansons').DataTable().clear();
         $('#parArtiste').DataTable().clear();
         $('#parAlbum').DataTable().clear();
 
-            var item = new Array();
+        var item = new Array();
 
-            for (var i = 0; i<20; i++)
-            {
-                item[i] = new Array('truc' + i, 'toto' + i, 'album du siecle' + i)
+        for (var i = 0; i < 20; i++) {
+            item[i] = new Array('truc' + i, 'toto' + i, 'album du siecle' + i)
 
-                $('#toutesLesChansons').dataTable().fnAddData([
-                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
-                    item[i][1],
-                    item[i][2]
-                ]);
-                $('#parArtiste').dataTable().fnAddData([
-                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
-                    item[i][1]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
-                    item[i][2]
-                ]);
-                $('#parAlbum').dataTable().fnAddData([
-                    item[i][0]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
-                    item[i][1],
-                    item[i][2]+'<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>'
-                ]);
-            }
-            $('#parArtiste_wrapper').hide();
+            $('#toutesLesChansons').dataTable().fnAddData([
+                item[i][0] + '<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                item[i][1],
+                item[i][2]
+            ]);
+            $('#parArtiste').dataTable().fnAddData([
+                item[i][0] + '<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                item[i][1] + '<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                item[i][2]
+            ]);
+            $('#parAlbum').dataTable().fnAddData([
+                item[i][0] + '<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>',
+                item[i][1],
+                item[i][2] + '<a href="#" class="btn btn-default btn-play pull-right"><i class="glyphicon glyphicon-play"></i></a>'
+            ]);
+
+        }
+        ;
+
+        if($('#kc-artist').css('opacity')==1){
+            $('#toutesLesChansons_wrapper').hide();
             $('#parAlbum_wrapper').hide();
-
-    });
+        } else if ($('#kc-album').css('opacity')==1){
+            $('#toutesLesChansons_wrapper').hide();
+            $('#parArtiste_wrapper').hide();
+        } else if ($('#kc-song').css('opacity')==1) {
+            $('#parAlbum_wrapper').hide();
+            $('#parArtiste_wrapper').hide();
+        }
+        if ($('#kc-song').css('opacity')==1&&$('#kc-album').css('opacity')==1) {
+            $('#parAlbum_wrapper').hide();
+            $('#parArtiste_wrapper').hide();
+            $('#toutesLesChansons_wrapper').hide();
+        }
+        }
+        );
 
 
     $('.kc-item').on('click', function () {
@@ -104,8 +120,6 @@ $(function () {
 
 
     });
-
-
 
 
     $('.menu-item').on('click', function () {
@@ -217,9 +231,8 @@ $(function () {
         });
 
 
-
     }
 
-
-
+    $('.icon').css("opacity", "0.5");
+    $('.icon').first().css("opacity", "1");
 });

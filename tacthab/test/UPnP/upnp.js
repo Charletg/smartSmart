@@ -71,6 +71,7 @@ app.controller(
             // console.log('bricks ' +
             // JSON.stringify(response.bricks ));
             $scope.medias = response.bricks;
+
             console.log($scope.medias);
 
         });
